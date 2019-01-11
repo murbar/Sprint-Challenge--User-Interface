@@ -34,23 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML lends meaning and structure to a document. It allows humans and machines to more easily reason about a document's content. This is important for code maintainability, SEO, and accessibility for people using assistive technologies like screen readers. 
+> Semantic HTML lends meaning and structure to a document. It allows humans and machines to more easily reason about a document's content. This is important for code maintainability, SEO, and accessibility for people using assistive technologies like screen readers. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Block level elements expand to take up the space available in their container element. They push sibling elements to a new line, and are able to be sized and positioned in CSS. Inline elements cannot be sized or positioned and do not create a line break.
+> Block level elements expand to take up the space available in their container element. They push sibling elements to a new line, and are able to be sized and positioned in CSS. Inline elements cannot be sized or positioned and do not create a line break.
 
 3. What are the 4 areas of the box model?
 
-The box model consists of MARGIN -> BORDER -> PADDING -> CONTENT.
+> The box model consists of MARGIN -> BORDER -> PADDING -> CONTENT.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-Align-items acts on the cross axis of a flexbox container while justify-items acts on the main axis.
+> Align-items acts on the cross axis of a flexbox container while justify-items acts on the main axis.
 
 5. Explain why git is valuable to a team of developers.
 
-Git allows a team of distributed developers to maintain and coordinate a codebase by tracking changes made by each contributor and allowing multiple contributors to work on a codebase concurrently. Changes can be compared and discussed with tools like GitHub, rolled back if necessary, and each team member can incorporate the changes into their working copy.
+> Git allows a team of distributed developers to maintain and coordinate a codebase by tracking changes made by each contributor and allowing multiple contributors to work on a codebase concurrently. Changes can be compared and discussed with tools like GitHub, rolled back if necessary, and each team member can incorporate the changes into their working copy.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
