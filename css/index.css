@@ -357,3 +357,71 @@ header nav a {
 .about-outro {
     padding: 0 15px 30px;
 }
+
+/* contact page */
+
+.contact-intro {
+    padding: 0 15px 30px;
+    border-bottom: 1px dashed #000;
+}
+
+.contact-form {
+    padding: 30px 15px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.contact-form form > div {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-first-name,
+.form-last-name,
+.form-email,
+.form-phone {
+    flex-basis: calc(50% - 15px);
+    padding-bottom: 30px;
+}
+
+.form-first-name input,
+.form-last-name input,
+.form-email input,
+.form-phone input {
+    width: 100%;
+}
+
+.form-message,
+.form-submit {
+    flex-basis: 100%;
+}
+
+.form-message textarea {
+    width: 100%;
+}
+
+.form-first-name input,
+.form-last-name input,
+.form-email input,
+.form-phone input,
+.form-message textarea  {
+    font-size: 1em;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.form-submit button {
+    padding: 6px 20px;
+    border: 2px solid black;
+    font-size: 1em;
+    background: white;
+    border-radius: 7px;
+    margin-top: 20px;
+}
